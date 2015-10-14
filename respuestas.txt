@@ -1,6 +1,11 @@
 Respuestas a las preguntas de la práctica 3
 1.- ¿Cuál es el propósito de trabajar con mútliples ramas?
 Porque se pueden crear ramas de forma muy fácil y es cómodo trabajar con ellas, pudiendo posteriormente fusionarlas.
+2.- ¿Qué es una reorganización (rebase)?
+Coger todos los cambios confirmados en una rama, y reaplicarlos sobre otra.
 3.- ¿Cuál es la ventaja de reorganizar (rebase)?
 Que puedes coger todos los cambios confirmados en una rama, y reaplicarlos sobre otra, haciendo que Git vaya al padre de ambas ramas (donde estás actualmente y de donde quieres reorganizar), saque las diferencias introducidas por cada confirmación en la rama donde estás, guarde esas diferencias en archivos temporales, reinicie (reset) la rama actual hasta llevarla a la misma confirmación en la rama de donde quieres reorganizar, y, finalmente, vuelva a aplicar ordenadamente los cambios.
+ 
+
+
  
