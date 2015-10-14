@@ -1,0 +1,9 @@
+[user]
+	name = Sofía Pizarro
+	email = alu0100831696@ull.edu.es
+[credential]
+	helper = cache
+[push]
+	default = matching
+[branch]
+	autosetuprebase = always
